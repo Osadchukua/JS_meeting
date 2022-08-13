@@ -7,10 +7,7 @@ const arr = ['BEST', 'the', 'foo', 'is', 'JS'];
 
 function changeArray(array, str) {
   const newArray = [...array];
-
   newArray.splice(newArray.indexOf(str), 1);
-  //   console.log(newArray.splice(newArray.indexOf(str), 1));
-
   return newArray.reverse().join(' ');
 }
 
